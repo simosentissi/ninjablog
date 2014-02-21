@@ -109,7 +109,7 @@
                     <reload>automatic</reload>
                     <scanTargetPatterns>
                         <scanTargetPattern>
-                            <directory>target/classes</directory>
+                            <directory>target/${project.artifactId}-${project.version}/WEB-INF/classes</directory>
                             <includes>
                                 <include>**/*</include>
                             </includes>
